@@ -14,7 +14,7 @@ function changeDialValue (index, incrementBy) {
     redirect('lucas-leiberman')
   }
 
-  console.log("key", key)
+  console.log(JSON.stringify(SECRET_COMBO))
   console.log(lockState.locked)
   console.log("code", SECRET_COMBO)
   // This part is missing some code
